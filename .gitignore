@@ -1,0 +1,27 @@
+# 依赖目录
+node_modules/
+
+# 构建输出
+dist/
+*.exe
+*.dmg
+*.pkg
+
+# 数据文件
+data/
+*.json
+
+# 临时文件
+*.tmp
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
