@@ -63,7 +63,7 @@
 ## 安装依赖
 
 ```bash
-cd question-practice-app
+cd Questscape-Pro
 npm install
 ```
 
@@ -73,11 +73,6 @@ npm install
 # 启动开发服务器
 npm run dev
 ```
-
-这会自动启动：
-- Vite开发服务器（端口5173）
-- Electron应用窗口
-
 ## 生产构建
 
 ```bash
@@ -95,12 +90,6 @@ npm run build
 
 打包后的文件在 `dist` 目录中。
 
-## 数据存储
-
-默认数据存储位置：
-- Windows: `C:\Users\<用户名>\.question-practice\`
-- 数据库文件: `question-practice.db`
-- 设置文件: `settings.json`
 
 ## Excel模板格式
 
@@ -124,26 +113,10 @@ npm run build
 
 ## 常见问题
 
-### 1. 安装better-sqlite3失败
-如果安装better-sqlite3失败，可能需要安装构建工具：
-
-```bash
-npm install --global windows-build-tools
-npm install
-```
-
-### 2. 数据库初始化失败
-检查应用是否有权限访问用户目录，或者手动创建 `.question-practice` 目录。
-
-### 3. 导入Excel失败
+### 导入Excel失败
 - 确保Excel文件格式正确
 - 检查必填字段是否全部填写
 - 验证题型是否为：单选题/多选题/判断题/填空题
-
-## 开发规范
-
-请参考项目根目录下的编码规范文档：
-- `.roo/rules-code/coding-standards.md`
 
 ## 许可证
 
